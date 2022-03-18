@@ -1,6 +1,54 @@
 html,
 body,
 #root {
-    height: 100%;
-    margin: 0;
+    max-width: 700px;
+    height: 300px;
+    margin: auto;
+
 }
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.d1 {
+    width: 100px;
+    height: 100px;
+    background: #DAA520;
+    border-radius: 50%;
+
+}
+.d2 {
+    width: 100px;
+    height: 100px;
+    background: #DAA520;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+
+}
+.d3 {
+    width: 100px;
+    height: 100px;
+    background: #DAA520;
+    border-radius: 50%;
+    position: relative;
+    top: 200px;
+}
+.d4 {
+    width: 100px;
+    height: 100px;
+    background: #DAA520;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+}
+.d5 {
+    width: 100px;
+    height: 100px;
+    background: #DAA520;
+    border-radius: 50%;
+}
+
+
